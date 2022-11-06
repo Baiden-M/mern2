@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Counter from "./components/Counter";
+import Counter2 from "./components/Counter2";
+import MyGitHub from "./components/MyGitHub";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        Hello React!
+      </h1>
+      <h2>
+        Baiden McElroy - s73j573
+      </h2>
+
+      <hr />
+      <Counter2 /><hr />
+      <Counter /><hr />
+      
+      <MyGitHub /><hr />
+    
     </div>
   );
 }
-
-export default App;
+  export default App;
